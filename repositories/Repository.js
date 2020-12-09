@@ -1,7 +1,7 @@
 import axios from 'axios';
-// const baseDomain = 'http://45.76.97.89:3000';
-const baseDomain = 'https://mart-fury.herokuapp.com';
-// const authorization_prefix = 'Bearer ';
+const baseDomain = 'http://45.76.97.89:3000';
+//const baseDomain = 'http://localhost:1337';
+const authorization_prefix = 'Bearer ';
 
 export const customHeaders = {
     Accept: 'application/json',
