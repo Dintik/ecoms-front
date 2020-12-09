@@ -145,7 +145,7 @@ class Product extends Component {
                         <Link
                             href="/product/[pid]"
                             as={`/product/${product.id}`}>
-                            <a className="ps-product__title">{product.title}</a>
+                            <a className="ps-product__title">{ product.shopify ? product.shopify.title : product.title } 1111111111</a>
                         </Link>
                         <div className="ps-product__rating">
                             <Rating />
@@ -171,7 +171,7 @@ class Product extends Component {
                         <Link
                             href="/product/[pid]"
                             as={`/product/${product.id}`}>
-                            <a className="ps-product__title">{product.title}</a>
+                            <a className="ps-product__title">{product.title} 1111111111</a>
                         </Link>
                         {product.is_sale === true ? (
                             <p className="ps-product__price sale">
